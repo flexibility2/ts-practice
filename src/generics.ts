@@ -1,8 +1,8 @@
 // 函数的范型
-function test<T>(args: T): T {
+function testR<T>(args: T): T {
   return args;
 }
-const res = test<string>("aa");
+const res = testR<string>("aa");
 
 const wait = <T>(promise: Promise<T>): void => {};
 
