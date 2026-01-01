@@ -17,3 +17,4 @@ type pickFistParameterType<T> = T extends (arg1: infer R, ...args: any) => any
   ? R
   : never;
 type test4 = pickFistParameterType<typeof test>; // type test4 = string
+console.log("test4: ");
