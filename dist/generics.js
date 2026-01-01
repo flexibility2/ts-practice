@@ -1,8 +1,8 @@
 // 函数的范型
-function test(args) {
+function testR(args) {
     return args;
 }
-const res = test("aa");
+const res = testR("aa");
 const wait = (promise) => { };
 wait(new Promise((resolve) => {
     resolve("ok");
